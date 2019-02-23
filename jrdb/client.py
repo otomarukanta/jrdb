@@ -32,6 +32,13 @@ class JRDBClient():
         self.logger.debug('Fetched urls. {}'.format(urls))
         return urls
 
+    def fetch_all_urls(self, url):
+        res = self.fetch_page(url)
+        page = html.fromstring(res.content)
+        urls = [urljoin(url, x) for x in page.xpath('//a/@href') if x.endswith('zip')]
+        self.logger.debug('Fetched urls. {}'.format(urls))
+        return urls
+
     def fetch_jrdbdata(self, url):
         res = self.session.get(url, stream=True)
         z = zipfile.ZipFile(io.BytesIO(res.content))
