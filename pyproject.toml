@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jrdb"
-version = "0.1.1"
+version = "0.1.2"
 description = ""
 authors = ["otomarukanta <kanta208@gmail.com>"]
 

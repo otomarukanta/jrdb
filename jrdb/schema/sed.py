@@ -22,7 +22,7 @@ schema = {
         {"start":  78, "end":  79, "type": "string", "name": "race_weight_id"},
         {"start":  79, "end":  80, "type": "string", "name": "race_grade"},
         {"start":  80, "end": 130, "type": "string", "name": "race_name"},
-        {"start": 130, "end": 132, "type": "string", "name": "number_of_race"},
+        {"start": 130, "end": 132, "type": "string", "name": "number_of_horse"},
         {"start": 132, "end": 140, "type": "string", "name": "race_name_short"},
         {"start": 140, "end": 142, "type": "string", "name": "fp"},
         {"start": 142, "end": 143, "type": "string", "name": "exception_id"},
