@@ -25,6 +25,8 @@ schema = {
         {"start":  36, "end":  37, "type": "string", "name": "condition_score_diff_id"},
         {"start":  37, "end":  77, "type": "string", "name": "training_comment"},
         {"start":  77, "end":  85, "type": "string", "name": "comment_yyyymmdd"},
-        {"start":  85, "end":  86, "type": "string", "name": "training_evaluation"}
+        {"start":  85, "end":  86, "type": "string", "name": "training_evaluation"},
+        {"start":  86, "end":  89, "type": "string", "name": "last_week_workout_score"},
+        {"start":  89, "end":  91, "type": "string", "name": "last_week_course_id"},
     ]
 }
